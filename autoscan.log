@@ -1,0 +1,76 @@
+autoscan: warning: missing AC_CHECK_FUNCS([memset]) wanted by: 
+	src/my_file.c:180
+	src_bak/my_file.c:49
+autoscan: warning: missing AC_CHECK_FUNCS([setlocale]) wanted by: 
+	src/main.c:93
+autoscan: warning: missing AC_CHECK_FUNCS([strchr]) wanted by: 
+	src/my_file.c:57
+	src/my_text.c:318
+autoscan: warning: missing AC_CHECK_FUNCS([strrchr]) wanted by: 
+	src/my_text.c:598
+autoscan: warning: missing AC_CHECK_FUNCS([strstr]) wanted by: 
+	src/callbacks.c:2081
+	src/my_file.c:217
+	src/my_file.c:534
+	src/my_functions.c:48
+	src_bak/my_functions.c:53
+	src_bak/my_file.c:66
+	src_bak/my_file.c:346
+autoscan: warning: missing AC_CHECK_HEADERS([malloc.h]) wanted by: 
+	src/my_file.c:12
+	src/my_zettel.c:12
+	src/my_text.c:12
+	src_bak/my_file.c:12
+	src_bak/my_zettel.c:12
+autoscan: warning: missing AC_C_CONST wanted by: 
+	src/support.h:30
+	src/support.h:40
+	src/support.h:43
+	src/support.h:47
+	src/support.h:48
+	src/support.c:21
+	src/support.c:48
+	src/support.c:71
+	src/support.c:103
+	src/support.c:104
+	src/callbacks.c:932
+	src/callbacks.c:968
+	src/callbacks.c:1111
+	src/my_file.c:162
+	src/my_file.c:424
+	src/my_file.h:6
+	src/my_file.h:7
+	src_bak/my_file.c:32
+	src_bak/my_file.c:246
+	src_bak/my_file.h:3
+	src_bak/my_file.h:4
+	src_bak/support.c:21
+	src_bak/support.c:48
+	src_bak/support.c:71
+	src_bak/support.c:103
+	src_bak/support.c:104
+	src_bak/support.h:30
+	src_bak/support.h:40
+	src_bak/support.h:43
+	src_bak/support.h:47
+	src_bak/support.h:48
+autoscan: warning: missing AC_FUNC_MALLOC wanted by: 
+	src/my_zettel.c:154
+	src/my_zettel.c:230
+	src/my_zettel.c:321
+autoscan: warning: missing AC_FUNC_STAT wanted by: 
+	src/my_file.c:193
+	src/my_file.c:197
+	src/my_file.c:716
+	src/my_file.c:848
+autoscan: warning: missing AC_FUNC_STRFTIME wanted by: 
+	src/my_functions.c:136
+	src/my_functions.c:137
+	src/my_functions.c:145
+	src/my_functions.c:156
+autoscan: warning: missing AC_PROG_CXX wanted by: 
+	autogen.sh:99
+autoscan: warning: missing AC_STRUCT_TM wanted by: 
+	src/my_functions.c:130
+	src/my_functions.c:151
+	src_bak/my_functions.c:196

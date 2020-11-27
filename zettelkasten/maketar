@@ -1,0 +1,40 @@
+#!/bin/sh
+WORKDIR="ZMzettelkasten2"
+
+### check for host to setup pfad
+_host=`cat /etc/hostname`
+if [ "$_host" = "LT-DLR" ]; then
+	_pfad="/home/bernd/daten/info"
+fi
+if [ "$_host" = "mars" ]; then
+	_pfad="/home/bernd/daten/zettelkasten"
+fi
+if [ "$_pfad" = "" ]; then
+	echo "Unbekannter Host ==>$_host"
+	exit 1
+fi
+
+### just in case we are in the wrong dir
+cd /home/bernd/Projekte/$WORKDIR
+
+### copy the actual staff to here
+echo "*** copy files to zettelkasten/ ***"
+cp NEWS zettelkasten/
+cp README zettelkasten/
+cp src/ZMzettelkasten zettelkasten/
+#cp locale/en/LC_MESSAGES/ZMzettelkasten.mo zettelkasten/ZMzettelkasten.mo
+cp /usr/local/share/locale/en/LC_MESSAGES/ZMzettelkasten.mo zettelkasten/
+#cp /usr/local/share/ZMzettelkasten/pixmaps/zm*.png zettelkasten/
+cp $_pfad/hilfe.zkx zettelkasten/hilfe
+cp $_pfad/help.zkx zettelkasten/help
+cp $_pfad/zettelkasten.zkx zettelkasten/
+iconv -f utf-8 -t windows-1252 zettelkasten/zettelkasten.zkx -o zettelkasten/zettelkasten.zkn
+#cp zettelkasten/zettelkasten.zkx /home/bernd/daten/zettelkasten
+
+echo "*** get version string ***"
+#version=`strings zettelkasten/ZMzettelkasten | grep ersion | head -2 | tail -1 | cut -f 2 -d " " | sed 's/\.//g'`
+version=`strings zettelkasten/ZMzettelkasten | grep ersion | head -1 | cut -f 2 -d " " | sed 's/\.//g'`
+echo "    Version=$version"
+
+echo "*** make tar file ***"
+tar --exclude=maketar --exclude='*~' -cvzf /home/bernd/Projekte/$WORKDIR/ZMzettelkasten$version.tar zettelkasten/*

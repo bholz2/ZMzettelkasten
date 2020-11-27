@@ -1,0 +1,51 @@
+#######################################
+# README for ZMzettelkasten
+#
+# Bernd Holzhauer
+# 2008-06-15
+# Version 0.41RC1
+#######################################
+
+*** for Release Notes please refer to the NEWS file ***
+HELP wanted: For translations and documantation
+             If somebody like to help in documantation and/or translation
+             Help will be very welcome ;-)
+
+
+Installation
+============
+extracting the TAR-file into a tmp directory. cd into this directory and 
+invoke ./install.sh as root or run sudo ./install.sh
+
+The program file itself will be installed in /usr/local/bin
+
+The pixmaps will be installed in /usr/local/share/pixmaps/ZMzettelkasten
+and the help file "hilfe" will be copied to /usr/local/share/application/ZMzettelkasten
+
+The Language Files will be installed in /usr/local/share/locale/xx/LC_MESSAGES/
+Where "xx" is the name of the locale.
+
+To deinstall the programm just delete ZMzettelkasten binary and the directories.
+That's it
+
+
+There is a 2nd executable in the Tar-File named ZMzettelaksten6006 ... 
+it is linked with libc-2.3.6 for older Linux Versions like Ubuntu 6.06
+ 
+
+The FIRST RUN
+=============
+please run ZMzettelkasten from command line for the first time. If you have missing
+Libraries you will get information printed on the terminal.
+
+The first view of ZMzettelkasten is not looking very pretty. After you resized the 
+window to your needs please use "View->save view" to save the settings for next usage.
+
+To run ZMzettelkasten the SourceView Library "libgtksourceview-1.0" is needed.
+If the SourceView Library is not installed just use your Package tool to install it.
+By default spell checking is installed just for the desktop default language.
+If you need German and/or English spell checking please make sure to install the 
+equvalent aspell libraries.
+
+
+

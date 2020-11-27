@@ -1,0 +1,1346 @@
+# English translations for ZMzettelkasten package.
+# Copyright (C) 2008 THE ZMzettelkasten'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ZMzettelkasten package.
+# Bernd Holzhauer <bernd@cc-c.de>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ZMzettelkasten 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-10-30 15:13+0100\n"
+"PO-Revision-Date: 2008-04-03 11:07+0200\n"
+"Last-Translator: Bernd Holzhauer <bernd@cc-c.de\n"
+"Language-Team: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../src/main.c:157
+msgid "kein Zettelkasten geöffnet"
+msgstr "no open Slip Box"
+
+#: ../src/main.c:255
+msgid "File %s nicht gefunden"
+msgstr "Error: File %s not found"
+
+#: ../src/interface.c:31
+msgid "_Neu"
+msgstr "_New"
+
+#: ../src/interface.c:39
+msgid "_Export Zettel"
+msgstr "_Export Slip"
+
+#: ../src/interface.c:46
+msgid "_Import Zettel"
+msgstr "_Import Slip"
+
+#: ../src/interface.c:60
+msgid "Zettel _bearbeiten"
+msgstr "_Edit Slip"
+
+#: ../src/interface.c:67 ../src/interface.c:551
+msgid "Neuer Zettel"
+msgstr "New Slip"
+
+#: ../src/interface.c:74
+msgid "Neuer Zettel von Template"
+msgstr "New Slip from Template"
+
+#: ../src/interface.c:81 ../src/interface.c:1277
+msgid "Neuer Zettel mit X-Link"
+msgstr "New Slip with X-Link"
+
+#: ../src/interface.c:93
+msgid "ohne Autor"
+msgstr "w/o Author"
+
+#: ../src/interface.c:100
+msgid "ohne Stichworte"
+msgstr "w/o Catchword"
+
+#: ../src/interface.c:107
+msgid "ohne Überschrift"
+msgstr "w/o Title"
+
+#: ../src/interface.c:114
+msgid "ohne Links"
+msgstr "w/o Links"
+
+#: ../src/interface.c:126
+msgid "Normal"
+msgstr "Normal"
+
+#: ../src/interface.c:133
+msgid "Wichtig/Todo"
+msgstr "Important/Todo"
+
+#: ../src/interface.c:140
+msgid "Erledigt/versteckt"
+msgstr "Done/hidden"
+
+#: ../src/interface.c:147 ../src/interface.c:2406
+msgid "Idee"
+msgstr "Idea"
+
+#: ../src/interface.c:154 ../src/interface.c:2399
+msgid "Info"
+msgstr "info"
+
+#: ../src/interface.c:161
+msgid "Liste - Code"
+msgstr "List - Code"
+
+#: ../src/interface.c:168
+msgid "Person"
+msgstr "People"
+
+#: ../src/interface.c:175
+msgid "Buch"
+msgstr "Book"
+
+#: ../src/interface.c:182 ../src/interface.c:2419
+msgid "Text"
+msgstr "Text"
+
+#: ../src/interface.c:189
+msgid "Template"
+msgstr "Template"
+
+#: ../src/interface.c:211
+msgid "Erster"
+msgstr "First"
+
+#: ../src/interface.c:218 ../src/interface.c:621
+msgid "Zurück"
+msgstr "Backwards"
+
+#: ../src/interface.c:225
+msgid "Vor"
+msgstr "Forwards"
+
+#: ../src/interface.c:232
+msgid "Letzter"
+msgstr "Last"
+
+#: ../src/interface.c:239
+msgid "Springe zu Zettel"
+msgstr "Jump to Slip"
+
+#: ../src/interface.c:246
+msgid "Ein Schritt zurück"
+msgstr "One Step backwards"
+
+#: ../src/interface.c:253
+msgid "Finde Zettel"
+msgstr "Find Slip"
+
+#: ../src/interface.c:261
+msgid "Zettel verschlüsseln"
+msgstr "Encode slip"
+
+#: ../src/interface.c:268
+msgid "Zettel löschen"
+msgstr "_delete Filter"
+
+#: ../src/interface.c:276
+msgid "Bookmark Zettel"
+msgstr "Bookmark Slip"
+
+#: ../src/interface.c:283
+msgid "Zeige alle Zettel"
+msgstr "Show all Slips"
+
+#: ../src/interface.c:290
+msgid "Markiere Zettel als"
+msgstr "Mark Slip as"
+
+#: ../src/interface.c:297 ../src/interface.c:1974
+msgid "Externe Links"
+msgstr "External Links"
+
+#: ../src/interface.c:309
+msgid "Index - Titel-Liste"
+msgstr "Index - Title-List"
+
+#: ../src/interface.c:316
+msgid "Index - Rückverweise"
+msgstr "Index - Back-pointing"
+
+#: ../src/interface.c:323
+msgid "Autoren-Liste"
+msgstr "Author-List"
+
+#: ../src/interface.c:330
+msgid "Stichwort-Liste"
+msgstr "Keyword-List"
+
+#: ../src/interface.c:338
+msgid "Desktop Copy"
+msgstr "Desktop Copy"
+
+#: ../src/interface.c:345 ../src/interface.c:673
+msgid "Zeige Zettel als PDF"
+msgstr "Show slip as PDF"
+
+#: ../src/interface.c:353 ../src/interface.c:2741
+msgid "Ansicht speichern"
+msgstr "Save View"
+
+#: ../src/interface.c:365 ../src/my_text.c:1023
+msgid "Password"
+msgstr "Password"
+
+#: ../src/interface.c:372
+msgid "Check Ext.Links"
+msgstr "Check Ext.Links"
+
+#: ../src/interface.c:386
+msgid "Hilfe"
+msgstr "Help"
+
+#: ../src/interface.c:393
+msgid "Web-Seite"
+msgstr "Web-Site"
+
+#: ../src/interface.c:408 ../src/interface.c:1720
+msgid "_Bearbeiten"
+msgstr "_Edit"
+
+#: ../src/interface.c:415 ../src/interface.c:1713 ../src/interface.c:2272
+msgid "_Zettel"
+msgstr "_Slip"
+
+#: ../src/interface.c:423 ../src/interface.c:1727
+msgid "_Extra"
+msgstr "_Extra"
+
+#: ../src/interface.c:505 ../src/interface.c:1791 ../src/interface.c:2323
+#: ../src/interface.c:2620 ../src/interface.c:2782
+msgid "ZMzettelkasten"
+msgstr "ZMzettelkasten"
+
+#: ../src/interface.c:533
+msgid "Zettelkasten öffnen"
+msgstr "Open Slip Box"
+
+#: ../src/interface.c:538
+msgid "Zettelkasten speichern"
+msgstr "Save Slip Box"
+
+#: ../src/interface.c:556
+msgid "Zettel bearbeiten"
+msgstr "Edit Slip"
+
+#: ../src/interface.c:570
+msgid "Erster Zettel in Zettelkasten"
+msgstr "First Slip in Box"
+
+#: ../src/interface.c:581
+msgid "Zettel rückwärts"
+msgstr "Backward one Slip"
+
+#: ../src/interface.c:592
+msgid "Zettel vorwärts"
+msgstr "Forward one Slip"
+
+#: ../src/interface.c:603
+msgid "Letzter Zettel in Zettelkasten"
+msgstr "Last Slip in Box"
+
+#: ../src/interface.c:614
+msgid "Gehe zu Zettel Nr. ..."
+msgstr "Goto Slip no. ..."
+
+#: ../src/interface.c:624
+msgid "Zuletzt angezeigter Zettel"
+msgstr "Last shown Slip"
+
+#: ../src/interface.c:637
+msgid "Zeige Zettel Index Fenster"
+msgstr "Show Slip Index Window"
+
+#: ../src/interface.c:641 ../src/interface.c:2425 ../src/interface.c:3277
+msgid "Autor"
+msgstr "Author"
+
+#: ../src/interface.c:644
+msgid "Autoren Liste"
+msgstr "List of Authors"
+
+#: ../src/interface.c:648 ../src/interface.c:2455 ../src/my_text.c:1060
+msgid "Stichwort"
+msgstr "Keyword"
+
+#: ../src/interface.c:651
+msgid "Stichwort Liste"
+msgstr "List of Keywords"
+
+#: ../src/interface.c:663
+msgid "Lesekopie"
+msgstr "RO-Copy"
+
+#: ../src/interface.c:666
+msgid "Öffne Kopie read-only"
+msgstr "Open copy read-only"
+
+#: ../src/interface.c:670
+msgid "PDF"
+msgstr "PDF"
+
+#: ../src/interface.c:697
+msgid "Zeige inaktive Zettel"
+msgstr "Show inaktive slips"
+
+#: ../src/interface.c:700
+msgid "Zeige auch inaktive Zettel"
+msgstr "Show inaktive slips, too"
+
+#: ../src/interface.c:732
+msgid "Stichworte markieren"
+msgstr "Mark keywords"
+
+#: ../src/interface.c:735
+msgid "Stichworte im Text markieren"
+msgstr "Mark keywords in text"
+
+#: ../src/interface.c:749 ../src/interface.c:1924 ../src/my_zettel.c:1796
+msgid "Stichworte"
+msgstr "Keywords"
+
+#: ../src/interface.c:771
+msgid "Verweise auf andere Zettel"
+msgstr "Links to Slips"
+
+#: ../src/interface.c:798 ../src/interface.c:1905
+msgid "Autor/Quelle"
+msgstr "Author/Source"
+
+#: ../src/interface.c:825 ../src/interface.c:1941
+msgid "Vermerke"
+msgstr "Notes"
+
+#: ../src/interface.c:840
+msgid "Verknüpfungen"
+msgstr "External links"
+
+#: ../src/interface.c:1088
+msgid "About ZMzettelkasten"
+msgstr "About ZMzettelkasten"
+
+#: ../src/interface.c:1105
+#, fuzzy
+msgid ""
+"ZauberMaus Zettelkasten\n"
+"(ZMzettelkasten)\n"
+"\n"
+"Version 0.40\n"
+"\n"
+"© 2006-2008 Bernd Holzhauer"
+msgstr ""
+"ZauberMaus Zettelkasten\n"
+"(ZMzettelkasten)\n"
+"\n"
+"Version 0.42\n"
+"\n"
+"© 2006-2009 Bernd Holzhauer"
+
+#: ../src/interface.c:1256
+msgid "Gehe zu Zettel"
+msgstr "Goto Slip"
+
+#: ../src/interface.c:1263
+msgid "Link anlegen"
+msgstr "Create link"
+
+#: ../src/interface.c:1270
+msgid "X-Link anlegen"
+msgstr "Create X-link"
+
+#: ../src/interface.c:1285
+msgid "Link löschen"
+msgstr "Delete link"
+
+#: ../src/interface.c:1334
+msgid "Achtung"
+msgstr "Attention"
+
+#: ../src/interface.c:1354
+msgid "label1"
+msgstr "label1"
+
+#: ../src/interface.c:1429
+msgid "label"
+msgstr "label"
+
+#: ../src/interface.c:1506
+msgid "ext_link_lbl"
+msgstr "ext_link_lbl"
+
+#: ../src/interface.c:1546
+msgid "Speichern & Beenden"
+msgstr "Save & Close"
+
+#: ../src/interface.c:1555
+msgid "Schließen ohne Speichern"
+msgstr "Close w/o Save"
+
+#: ../src/interface.c:1567
+msgid "_Suchen"
+msgstr "_Search"
+
+#: ../src/interface.c:1574
+msgid "_Ersetzen"
+msgstr "_Replace"
+
+#: ../src/interface.c:1589
+msgid "Zeitstempel einfügen"
+msgstr "Insert Timestamp"
+
+#: ../src/interface.c:1596
+msgid "Autor einfügen"
+msgstr "Insert Author"
+
+#: ../src/interface.c:1603
+msgid "Einfügen » «"
+msgstr "Insert » «"
+
+#: ../src/interface.c:1610
+msgid "Einfügen „ “"
+msgstr "Insert „ “"
+
+#: ../src/interface.c:1617
+msgid "Einfügen ✔"
+msgstr "Insert ✔"
+
+#: ../src/interface.c:1624
+msgid "Einfügen ⇨"
+msgstr "Insert ⇨"
+
+#: ../src/interface.c:1636
+msgid "aus"
+msgstr "off"
+
+#: ../src/interface.c:1643
+msgid "default/System"
+msgstr "default/System"
+
+#: ../src/interface.c:1650
+msgid "Deutsch"
+msgstr "German"
+
+#: ../src/interface.c:1657
+msgid "English"
+msgstr "English"
+
+#: ../src/interface.c:1679
+msgid "Zeilennummern anzeigen"
+msgstr "Show Line No."
+
+#: ../src/interface.c:1686
+msgid "Syntax"
+msgstr "Syntax"
+
+#: ../src/interface.c:1693
+msgid "Spell Check"
+msgstr "Spell Check"
+
+#: ../src/interface.c:1701
+msgid "Ansicht Speichern"
+msgstr "Save View"
+
+#: ../src/interface.c:1734 ../src/interface.c:2258 ../src/interface.c:2754
+msgid "_Ansicht"
+msgstr "_View"
+
+#: ../src/interface.c:1820
+msgid "Speichern und Fenster schließen"
+msgstr "Save & Close Window"
+
+#: ../src/interface.c:1825
+msgid "Änderungen speichern"
+msgstr "Save Changes"
+
+#: ../src/interface.c:1829
+msgid "Abbrechen"
+msgstr "Cancel"
+
+#: ../src/interface.c:1832
+msgid "Änderungen verwerfen"
+msgstr "Discard Changes"
+
+#: ../src/interface.c:1845
+msgid "Rückgängig (für Zetteltext)"
+msgstr "Undo (for Text)"
+
+#: ../src/interface.c:1850
+msgid "Wiederholen (für Zetteltext)"
+msgstr "Redo (for Text)"
+
+#: ../src/interface.c:1878
+msgid "Zettel-Titel"
+msgstr "Slip-Title"
+
+#: ../src/interface.c:1889
+msgid "Zettel - Text"
+msgstr "Slip - Text"
+
+#: ../src/interface.c:1957
+msgid "Zettel Links"
+msgstr "Slip Links"
+
+#: ../src/interface.c:2102
+msgid "A_utor"
+msgstr "A_uthor"
+
+#: ../src/interface.c:2109
+msgid "_Text"
+msgstr "_Text"
+
+#: ../src/interface.c:2116
+msgid "T_itel"
+msgstr "T_itel"
+
+#: ../src/interface.c:2123
+msgid "_Vermerk"
+msgstr "_Note"
+
+#: ../src/interface.c:2135 ../src/interface.c:2265
+msgid "_Filter"
+msgstr "_Filter"
+
+#: ../src/interface.c:2143
+msgid "Ansicht _Speichern"
+msgstr "_Save View"
+
+#: ../src/interface.c:2155
+msgid "Filter _anwenden"
+msgstr "_use Filter"
+
+#: ../src/interface.c:2162
+msgid "Filterwerte _löschen"
+msgstr "_delete Filter"
+
+#: ../src/interface.c:2170
+msgid "Zeige Wichtig/Todo"
+msgstr "Important/Todo"
+
+#: ../src/interface.c:2177
+msgid "Zeige Erledigt/Versteckt"
+msgstr "Show done/hidden"
+
+#: ../src/interface.c:2184
+msgid "Zeige Ideen"
+msgstr "Show ideas"
+
+#: ../src/interface.c:2191
+msgid "Zeige Infos"
+msgstr "Show infos"
+
+#: ../src/interface.c:2198
+msgid "Zeige Listen/Code"
+msgstr "Show list/code"
+
+#: ../src/interface.c:2205
+msgid "Zeige Personen"
+msgstr "Show people"
+
+#: ../src/interface.c:2212
+msgid "Zeige Bücher"
+msgstr "Show books"
+
+#: ../src/interface.c:2219
+msgid "Zeige Texte"
+msgstr "Show texts"
+
+#: ../src/interface.c:2226
+msgid "Zeige Templates"
+msgstr "Show templates"
+
+#: ../src/interface.c:2233
+msgid "Zeige Verschlüsselte"
+msgstr "Show encrypted"
+
+#: ../src/interface.c:2245
+msgid "_Verlinken"
+msgstr "_Link all"
+
+#: ../src/interface.c:2348
+msgid "Index Fenster schließen"
+msgstr "Close Index Window"
+
+#: ../src/interface.c:2360
+msgid "X-link"
+msgstr "X-link"
+
+#: ../src/interface.c:2363
+msgid "Sichbare Zettel verlinken"
+msgstr "Set X-Links to all visible Slips"
+
+#: ../src/interface.c:2372
+msgid "Filter"
+msgstr "Filter"
+
+#: ../src/interface.c:2375
+msgid "Filter anwenden"
+msgstr "use Filter"
+
+#: ../src/interface.c:2385
+msgid "Löschen"
+msgstr "Delete"
+
+#: ../src/interface.c:2388
+msgid "Lösche alle Filterbedingungen"
+msgstr "Clear all Filter settings"
+
+#: ../src/interface.c:2392
+msgid "Todo"
+msgstr "todo"
+
+#: ../src/interface.c:2395
+msgid "Liste Todo Zettel"
+msgstr "List todo slips"
+
+#: ../src/interface.c:2402
+msgid "Liste Info Zettel"
+msgstr "List info slips"
+
+#: ../src/interface.c:2409
+msgid "Liste Ideen Zettel"
+msgstr "List idea slips"
+
+#: ../src/interface.c:2431
+msgid "Vermerk"
+msgstr "Note"
+
+#: ../src/interface.c:2469 ../src/my_zettel.c:901 ../src/my_zettel.c:1656
+msgid "Titel"
+msgstr "Title"
+
+#: ../src/interface.c:2481
+msgid "<b>info</b>"
+msgstr "<b>info</b>"
+
+#: ../src/interface.c:2641
+msgid "<b>ZMzettelkasten Datei Info/Statistik</b>"
+msgstr "<b>ZMzettelkasten File Info/Statistics</b>"
+
+#: ../src/interface.c:2650
+msgid ""
+"Name:\n"
+"Größe:\n"
+"Zettel\n"
+"Average"
+msgstr ""
+"Name:\n"
+"Size:\n"
+"Slip\n"
+"Average"
+
+#: ../src/interface.c:2660
+msgid ""
+"Access:\n"
+"Modify:\n"
+"Change:"
+msgstr ""
+"Access:\n"
+"Modify:\n"
+"Change:"
+
+#: ../src/interface.c:2670
+msgid "<b>Beschreibung/Anmerkung</b>"
+msgstr "<b>Description/Note</b>"
+
+#: ../src/interface.c:2686
+msgid "Hier können Sie bis zu 500 Zeichen Datei-Beschreibung eingeben"
+msgstr "You can add up to 500 character for description"
+
+#: ../src/interface.c:2807
+msgid "Fenster schließen"
+msgstr "Close Window"
+
+#: ../src/interface.c:2813
+msgid "info"
+msgstr "info"
+
+#: ../src/interface.c:2932
+msgid "ZMzettelkasten Einstellungen"
+msgstr "ZMzettelkasten Setup"
+
+#: ../src/interface.c:2955
+msgid "<b>Standard Verzeichnis</b>"
+msgstr "<b>Working directory</b>"
+
+#: ../src/interface.c:2971 ../src/interface.c:3177
+msgid " ... "
+msgstr " ... "
+
+#: ../src/interface.c:2976
+msgid "Verzeichnis auswählen"
+msgstr "Select Directory"
+
+#: ../src/interface.c:2978
+msgid "<b>Dateioptionen</b>"
+msgstr "<b>File options</b>"
+
+#: ../src/interface.c:2987
+msgid "Letzte Datei automatisch öffnen"
+msgstr "Auto open last file"
+
+#: ../src/interface.c:2993
+msgid "Auto Backup beim Schreiben"
+msgstr "Auto Backup"
+
+#: ../src/interface.c:2999 ../src/interface.c:3013 ../src/interface.c:3025
+#: ../src/interface.c:3084 ../src/interface.c:3109 ../src/interface.c:3269
+msgid " "
+msgstr " "
+
+#: ../src/interface.c:3019
+msgid "use ~"
+msgstr "use ~"
+
+#: ../src/interface.c:3031
+msgid "use .zkb"
+msgstr "use .zkb"
+
+#: ../src/interface.c:3037
+msgid ""
+"Zeichensatz Konvertierung für *.zkn\n"
+"(iconv muss installiert sein)"
+msgstr ""
+"Convert Character Set für *.zkn\n"
+"(iconv must be installed)"
+
+#: ../src/interface.c:3043
+msgid "<b>Windows Kompatibilität</b>"
+msgstr "<b>Windows compatibility</b>"
+
+#: ../src/interface.c:3052
+msgid "Lock File"
+msgstr "Lock File"
+
+#: ../src/interface.c:3058
+msgid "Allgemein"
+msgstr "All"
+
+#: ../src/interface.c:3066
+msgid "<b>Toolbar</b>"
+msgstr "<b>Toolbar</b>"
+
+#: ../src/interface.c:3080
+msgid "Desktop"
+msgstr "Desktop"
+
+#: ../src/interface.c:3081
+msgid "Icons only"
+msgstr "Icons only"
+
+#: ../src/interface.c:3082
+msgid "Text only"
+msgstr "Text only"
+
+#: ../src/interface.c:3092
+msgid "Ansicht"
+msgstr "View"
+
+#: ../src/interface.c:3100
+msgid "<b>Zeige</b>"
+msgstr "<b>Show</b>"
+
+#: ../src/interface.c:3117
+msgid "Zeilennummern"
+msgstr "Line No."
+
+#: ../src/interface.c:3123
+msgid "Syntax Markierung"
+msgstr "Syntax Marking"
+
+#: ../src/interface.c:3129
+msgid "Rechter Rand"
+msgstr "Right Mark"
+
+#: ../src/interface.c:3142
+msgid "<b>Rechtschreibprüfung</b>"
+msgstr "<b>Spell Checking</b>"
+
+#: ../src/interface.c:3164
+msgid "Desktop/default"
+msgstr "Desktop/default"
+
+#: ../src/interface.c:3165
+msgid "deutsch"
+msgstr "German"
+
+#: ../src/interface.c:3166
+msgid "englisch"
+msgstr "English"
+
+#: ../src/interface.c:3168
+msgid "<b>Zeichensatz</b> (für Zetteltext)"
+msgstr "<b>Font Set</b> (for text)"
+
+#: ../src/interface.c:3183
+msgid "<b>Sonstiges</b>"
+msgstr "<b>Other</b>"
+
+#: ../src/interface.c:3192
+msgid "Auto save to file"
+msgstr "Auto save to file"
+
+#: ../src/interface.c:3198
+msgid "Editor"
+msgstr "Editor"
+
+#: ../src/interface.c:3206
+msgid "<b>Default Autor</b>"
+msgstr "<b>Default Author</b>"
+
+#: ../src/interface.c:3215
+msgid "automatisch in neue Zettel einfügen"
+msgstr "insert automaticaly in new Slips"
+
+#: ../src/interface.c:3229
+msgid "Name"
+msgstr "Name"
+
+#: ../src/interface.c:3237
+msgid "<b>Trennzeichen</b>"
+msgstr "<b>Token</b>"
+
+#: ../src/interface.c:3246
+msgid "Standard"
+msgstr "Standard"
+
+#: ../src/interface.c:3252
+msgid "alle Trennzeichen (ohne Leerzeichen)"
+msgstr "alle Tokens (no Blanks)"
+
+#: ../src/interface.c:3266
+msgid ",:\\n"
+msgstr ",:\\n"
+
+#: ../src/interface.c:3378
+msgid "Select Font"
+msgstr "Select Font"
+
+#: ../src/interface.c:3437
+msgid "Suchen"
+msgstr "Search"
+
+#: ../src/interface.c:3448
+msgid ""
+"Der Button ist z.Zt. außer Funktion,\n"
+"d.h. es wird immer case-sensitiv gesucht"
+msgstr ""
+"Currently this Button does not work\n"
+"i.e. search is case sensitiv"
+
+#: ../src/interface.c:3456 ../src/interface.c:3622
+msgid "suche nach"
+msgstr "search for"
+
+#: ../src/interface.c:3471 ../src/interface.c:3652
+msgid "Groß-/Kleinschreibung beachten"
+msgstr "Case senstive"
+
+#: ../src/interface.c:3512
+msgid "rückwärts"
+msgstr "backwards"
+
+#: ../src/interface.c:3539
+msgid "vorwärts"
+msgstr "forwards"
+
+#: ../src/interface.c:3603
+msgid "Suchen und Ersetzen"
+msgstr "Search and replace"
+
+#: ../src/interface.c:3630
+msgid "ersetze durch"
+msgstr "replace with"
+
+#: ../src/interface.c:3668
+msgid "suchen"
+msgstr "search"
+
+#: ../src/interface.c:3673
+msgid "Ersetzen"
+msgstr "Replace"
+
+#: ../src/interface.c:3678
+msgid "Alle Ersetzen"
+msgstr "Replace all"
+
+#: ../src/interface.c:3721
+msgid "Neues Stichwort"
+msgstr "New keyword"
+
+#: ../src/interface.c:3728
+msgid "Stichwort ändern"
+msgstr "Change keyword"
+
+#: ../src/interface.c:3736 ../src/my_text.c:1069
+msgid "Stichwort löschen"
+msgstr "Remove Keyword"
+
+#. for (i=1; i<=satz; i++) {
+#. ret = g_ptr_data = zettel[i] [1]; // Adressiert stichwort
+#. ret = get_g_data(); // holt data nach g_zeile
+#. if (g_zeile[0]=='!' || g_zeile[0]=='#' || g_zeile[0]=='$' || g_zeile[0]=='%') {
+#. mystr_cut_vorn(g_zeile, 1);
+#. }
+#. //g_printf("len=%d - ret=%d | %s\n",len, ret, g_zeile);
+#. line1 = strtok(g_zeile, token);
+#. while (line1 != NULL) { // Zerlege bei , in Zeilen
+#. //g_printf("    Stichwort=%s\n", line1);
+#. mystr_cut_at(line1, '/');
+#. if (!strcmp(line1, line)) {
+#. indexz[j]=i;
+#. j++;
+#. }
+#. line1 = strtok(NULL, token);
+#. }
+#. }
+#.
+#: ../src/callbacks.c:124 ../src/callbacks.c:2628
+#, c-format
+msgid "1. Stichwort = %s"
+msgstr "1. Keyword = %s"
+
+#: ../src/callbacks.c:232 ../src/my_text.c:703
+msgid "*** Text ist verschlüsselt ***"
+msgstr "*** Text is encrypted ***"
+
+#. on_Achtung_activate (menuitem, "Zettelkasten nicht gespeichert\nÄnderungen verwerfen?");
+#: ../src/callbacks.c:425 ../src/callbacks.c:488
+msgid ""
+"Zettelkasten nicht gespeichert\n"
+"Änderungen verwerfen?"
+msgstr ""
+"Slip Box not saved\n"
+"discard changes?"
+
+#: ../src/callbacks.c:532
+#, c-format
+msgid "Am Beginn: \"%s\" nicht mehr gefunden"
+msgstr "At BOF: no more slip found \"%s\"."
+
+#: ../src/callbacks.c:588
+#, c-format
+msgid "Am Ende: \"%s\" nicht mehr gefunden"
+msgstr "At EOF: no more slip found \"%s\"."
+
+#: ../src/callbacks.c:624
+msgid "Goto: Bitte Zettelnummer eingeben"
+msgstr "Goto: Enter Slip Number, please"
+
+#: ../src/callbacks.c:644
+msgid ""
+"Finde in Zettelüberschrift\n"
+"Bitte Suchbegriff eingeben"
+msgstr ""
+"Find in Slip Title\n"
+"Enter search text, please"
+
+#: ../src/callbacks.c:668
+msgid "Alle Zettel ohne Autor"
+msgstr "All Slips w/o Author"
+
+#: ../src/callbacks.c:696
+msgid "Alle Zettel ohne Stichworte"
+msgstr "All Slips w/o Keyword"
+
+#: ../src/callbacks.c:725
+msgid "Alle Zettel ohne Links"
+msgstr "All Slips w/o Links"
+
+#: ../src/callbacks.c:748
+msgid "Alle Zettel ohne Titel/Überschrift"
+msgstr "All Slips w/o Title"
+
+#: ../src/callbacks.c:992
+#, c-format
+msgid "Zettel, die auf Zettel %d verweisen"
+msgstr "Slips pointing back to Slip %d"
+
+#. ** Pop-up  OK - CANCEL **
+#: ../src/callbacks.c:1039
+#, c-format
+msgid ""
+"Wollen Sie den Zettel %d wirklich löschen?\n"
+"Inhalt und Links werden komplett entfernt"
+msgstr ""
+"Do You really want to delete Slip %d\n"
+"Content and links will be completely removed"
+
+#: ../src/callbacks.c:1040
+msgid "Delete Zettel"
+msgstr "Delete Slip"
+
+#: ../src/callbacks.c:1085
+#, c-format
+msgid "Zettel gelöscht: %s"
+msgstr "Slip deleted: %s"
+
+#: ../src/callbacks.c:1364
+msgid "File already exist"
+msgstr "File already exists"
+
+#: ../src/callbacks.c:1370
+#, c-format
+msgid ""
+"Datei bereits vorhanden\n"
+"in %s\n"
+"werden alle Daten überschrieben\n"
+"\n"
+"Datei wirklich anlegen?"
+msgstr ""
+"File already exists\n"
+"in %s\n"
+"all data will be overwritten\n"
+"\n"
+"You really want to overwrite?"
+
+#: ../src/callbacks.c:1419
+msgid "Link anlegen: Bitte Zettelnummer eingeben"
+msgstr "Link create: Please enter Slip Number"
+
+#: ../src/callbacks.c:1432
+msgid "X-Link anlegen: Bitte Zettelnummer eingeben"
+msgstr "X-Link create: Please enter Slip Number"
+
+#: ../src/callbacks.c:1579
+msgid "Link anlegen: Nummer zu klein - bitte neu eingeben"
+msgstr "Link create: Number to small - please reenter"
+
+#: ../src/callbacks.c:1583
+msgid "Link anlegen: Nummer zu groß - bitte neu eingeben"
+msgstr "Link create: Number to big - please reenter"
+
+#: ../src/callbacks.c:1595
+msgid "X-Link anlegen: Nummer zu klein - bitte neu eingeben"
+msgstr "X-Link create: Number to small - please reenter"
+
+#: ../src/callbacks.c:1599
+msgid "X-Link anlegen: Nummer zu groß - bitte neu eingeben"
+msgstr "X-Link create: Number to big - please reenter"
+
+#: ../src/callbacks.c:1613
+msgid "Goto: Nummer zu klein - bitte neu eingeben"
+msgstr "Goto: Number to small - please reenter"
+
+#: ../src/callbacks.c:1617
+msgid "Goto: Nummer zu groß - bitte neu eingeben"
+msgstr "Goto: Number to big - please reenter"
+
+#: ../src/callbacks.c:1639
+#, c-format
+msgid "Fehler: \"%s\" nicht gefunden"
+msgstr "Error: \"%s\" not found"
+
+#. on_Achtung_activate (menuitem, "Zettel nicht gespeichert\nÄnderungen verwerfen?");
+#: ../src/callbacks.c:1761 ../src/my_zettel.c:591
+msgid ""
+"Zettel nicht gespeichert\n"
+"Änderungen verwerfen?"
+msgstr ""
+"Slip not saved\n"
+"discard changes?"
+
+#. ** Pop-up  OK -CANCEL **
+#: ../src/callbacks.c:2210
+msgid "X-Links"
+msgstr "X-links"
+
+#: ../src/callbacks.c:2216
+msgid "Wollen Sie wirklich alle sichtbaren Zettel verlinken?"
+msgstr "You really wont to set X-Links to all visible Slips?"
+
+#: ../src/callbacks.c:2603
+#, c-format
+msgid "Autor = %s"
+msgstr "Author = %s"
+
+#: ../src/support.c:60 ../src/support.c:85
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr "Couldn't find pixmap file: %s"
+
+#: ../src/my_file.c:196
+msgid "Lock File found"
+msgstr "Lock File found"
+
+#. sprintf(line, _("Datei bereits in Bearbeitung\nLock-File %s gefunden!\n\nDatei im ReadOnly-Mode öffnen?"), help);
+#: ../src/my_file.c:204
+#, c-format
+msgid ""
+"Datei bereits in Bearbeitung\n"
+"Lock-File %s gefunden!\n"
+"\n"
+"Datei trotzdem öffnen?"
+msgstr ""
+"File already open\n"
+"Found Lock-File %s!\n"
+"\n"
+"Open file in read-only mode?"
+
+#: ../src/my_file.c:359
+#, c-format
+msgid "*** Datei ist keine Zettelkasten Datei ***"
+msgstr "*** File is not a Slipbox File ***"
+
+#: ../src/my_file.c:371
+#, c-format
+msgid "Falsche Zettelkasten Version ... kann falsch dargestellt werden"
+msgstr "Wrong slipbox version ... may be wrong displayed"
+
+#: ../src/my_file.c:477
+#, c-format
+msgid "*** WARNUNG: Backup-Datei ist jünger als Zettelkasten-Datei ***"
+msgstr "*** WARNING: Backup file is younger then Slipbox file ***"
+
+#: ../src/my_file.c:479
+#, c-format
+msgid "Datei gelesen - %d Zettel - größter Zettel = %d Zeichen"
+msgstr "File successfully read - No. of Slips %d - biggest Slip = %d Bytes"
+
+#. g_print("    links_pz=%f ilinks=%d, satz=%d\n", links_pz, ilinks, satz);
+#. fill file label
+#: ../src/my_file.c:879
+#, c-format
+msgid ""
+"Datei\t\t\t%s\n"
+"Dateigröße\t\t%'d Byte\n"
+"Anzahl Zettel\t\t%'d\t(%'d inaktiv, %'d verschlüsselt)\t\t\n"
+"Ø Zettelgröße\t\t%'d Byte\n"
+"Ø Links/Zettel\t\t%.1f\n"
+"Ø Stichworte/Zettel\t%.1f"
+msgstr ""
+"File\t\t\t%s\n"
+"Size of File\t\t%'d Byte\n"
+"No. of slips\t\t%'d\t(%'d inactiv, %'d encoded)\t\t\n"
+"Ø Size of Slips\t\t%'d Byte\n"
+"Ø Links/Slip\t\t%.1f\n"
+"Ø Catchwords/Slip\t%.1f"
+
+#: ../src/my_file.c:894
+#, c-format
+msgid ""
+"I-Node Änderung\t%sLetzes Speichern\t%sLetzter Zugriff\t\t%sZugriffsrechte\t"
+"\t%o"
+msgstr "I-Node Change\t\t%sLast Save\t\t\t%sLast Access\t\t%sPermissions\t\t%o"
+
+#: ../src/my_file.c:1308
+#, c-format
+msgid "Zettel %d als %s gespeichert"
+msgstr "Saved slip %d as %s"
+
+#: ../src/my_file.c:1476
+#, c-format
+msgid "*** %s ist keine gültig Import Datei"
+msgstr "*** %s is not a valid import file"
+
+#: ../src/my_file.c:1485
+msgid "Zettel Import"
+msgstr "Import Slip"
+
+#: ../src/my_file.c:1492
+#, c-format
+msgid ""
+"Zettel Nummer existiert schon!\n"
+"\n"
+"OK = Zettel %d durch Import-Nr.%d überschreiben\n"
+"oder + hinzufügen = als neuen Zettel anhängen?"
+msgstr ""
+"Slip No. already exits!\n"
+"\n"
+"OK = Overwrite Slip %d with Import-No. %d\n"
+"or add to end with + add?"
+
+#: ../src/my_file.c:1506
+#, c-format
+msgid "*** Zettel Import abgebrochen ***"
+msgstr "*** Slip Import canceled"
+
+#: ../src/my_file.c:1565
+#, c-format
+msgid ""
+"Importiert: Zettel %d aus %s\n"
+"%s"
+msgstr ""
+"Imported: Slip %d from %s\n"
+"%s"
+
+#. Format %a=day %b=Month, %d=day, %Y=Year
+#: ../src/my_functions.c:350
+msgid "%a %d. %b %Y"
+msgstr "%a %b %d %Y"
+
+#: ../src/my_functions.c:391
+msgid ""
+"ACHTUNG\n"
+"Funktion noch nicht implementiert"
+msgstr ""
+"ATTENTION:\n"
+"Function not yet implemented"
+
+#. g_printf("+++ MARK +++\n");
+#: ../src/my_functions.c:682
+#, c-format
+msgid ""
+"<b>=== EXTERNAL LINK CHECK ===</b>\n"
+"<tt>%7d Links insgesamt gefunden, davon:\n"
+msgstr ""
+"<b>=== EXTERNAL LINK CHECK ===</b>\n"
+"%10d Links found\n"
+
+#: ../src/my_functions.c:683
+#, c-format
+msgid "%s%7d Web-Links - nicht getestet\n"
+msgstr "%s%10d Web -Links - not tested\n"
+
+#: ../src/my_functions.c:684
+#, c-format
+msgid "%s%7d Mail-Links - nicht getestet\n"
+msgstr "%s%10d Mail-Links - not tested\n"
+
+#: ../src/my_functions.c:685
+#, c-format
+msgid "%s%7d Executables - nicht getestet\n"
+msgstr "%s%10d Executables - not tested\n"
+
+#: ../src/my_functions.c:686
+#, c-format
+msgid "%s%7d ZMzettelkasten Links getestet\n"
+msgstr "%s%10d Slip-Box Links verified\n"
+
+#: ../src/my_functions.c:687
+#, c-format
+msgid "%s%7d ZMmanuskript Links getestet\n"
+msgstr "%s%10d ZMmanuskript - verified\n"
+
+#: ../src/my_functions.c:688
+#, c-format
+msgid "%s%7d lokale Dateien getestet\n"
+msgstr "%s%10d Local files verified\n"
+
+#: ../src/my_functions.c:690
+#, c-format
+msgid "%s%7d Dateien nicht gefunden</tt>"
+msgstr "%s%10d Files not found"
+
+#: ../src/my_functions.c:692
+#, c-format
+msgid "%s</tt>=== alle Links sind ok ==="
+msgstr "%s=== all Links are OK ==="
+
+#. Zettelnummer in Statusbar
+#: ../src/my_text.c:883
+#, c-format
+msgid "Zettel %d von %d - %d Zeichen - %s - %s"
+msgstr "Slip %d of total %d - %d Bytes - %s - %s"
+
+#: ../src/my_text.c:1071
+msgid "Stichwort eingeben/editieren"
+msgstr "Enter or edit keyword"
+
+#: ../src/my_zettel.c:135 ../src/my_zettel.c:152
+msgid "kein Zettelkasten"
+msgstr "no Slip-Box"
+
+#: ../src/my_zettel.c:150
+#, c-format
+msgid "Edit %s - Zettel %d"
+msgstr "Edit %s - Slip %d"
+
+#. "neu" über gelöschten zettel
+#: ../src/my_zettel.c:425 ../src/my_zettel.c:643
+#, c-format
+msgid "Erstellt: %s"
+msgstr "Created: %s"
+
+#: ../src/my_zettel.c:523
+msgid ";Geändert: "
+msgstr ";Changed: "
+
+#: ../src/my_zettel.c:616
+msgid ""
+"Editieren nicht möglich!\n"
+"Bitte zuerst Password eingeben"
+msgstr ""
+"Not possible to edit!\n"
+"Please, enter password first"
+
+#: ../src/my_zettel.c:772
+#, c-format
+msgid "Bearbeite Zettel %d"
+msgstr "Edit Slip %d"
+
+#: ../src/my_zettel.c:892 ../src/my_zettel.c:1647
+msgid "Zettel"
+msgstr "Slip"
+
+#: ../src/my_zettel.c:930
+msgid "External Links"
+msgstr "External Links"
+
+#. g_printf("    size=%.0f - filled=%f\n", size, filled);
+#: ../src/my_zettel.c:1186
+#, c-format
+msgid "Bearbeite Zettel %d - %.0f Zeichen"
+msgstr "Edit Slip %d - %.0f Character"
+
+#: ../src/my_zettel.c:1571
+#, c-format
+msgid "%d Zettel gefunden"
+msgstr "Found %d Slips"
+
+#: ../src/my_zettel.c:1761
+msgid "Anz."
+msgstr "No."
+
+#: ../src/my_zettel.c:1795
+msgid "Autoren/Quellen"
+msgstr "Authors/Sources"
+
+#: ../src/my_zettel.c:1860
+#, c-format
+msgid "%d %s gefunden"
+msgstr "found %d %s"
+
+#~ msgid "Erledigt/hidden"
+#~ msgstr "Done/hidden"
+
+#~ msgid "People"
+#~ msgstr "People"
+
+#~ msgid "clear"
+#~ msgstr "clear"
+
+#~ msgid "zeige inaktive"
+#~ msgstr "show hidden"
+
+#~ msgid "Copy"
+#~ msgstr "Copy"
+
+#~ msgid ""
+#~ "/usr/local/bin/ZMzettelkasten -r /usr/local/share/applications/"
+#~ "ZMzettelkasten/hilfe &"
+#~ msgstr ""
+#~ "/usr/local/bin/ZMzettelkasten -r /usr/local/share/applications/"
+#~ "ZMzettelkasten/help &"
+
+#~ msgid ""
+#~ "/etc/alternatives/mozilla http://www.cc-c.de/german/download/zettelkasten."
+#~ "php"
+#~ msgstr ""
+#~ "/etc/alternatives/mozilla http://www.cc-c.de/english/download/"
+#~ "zettelkasten.php"
+
+#~ msgid "zurück"
+#~ msgstr "Back"
+
+#~ msgid "Headline"
+#~ msgstr "Headline"

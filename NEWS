@@ -1,0 +1,37 @@
+### ZMzettelkasten version description ###
+
+### 2008-06-15 - Version 0.41
+added features:
+- Slip import & export function     (see sample for import: test.zkx_z3.xml)
+- Slip printing/exporting in LaTeX and or PDF  (see sample: test.zkx_z3.pdf)
+- File locking
+- Double click an catchwords
+- auto save
+debugging:
+- possible core dump after a "find" operation
+- core dump if "token" is not defined in .zmzettel.cfg
+- [cntl][z] backwards in slip history beyond "last" slip
+- core dump if clicked on "empty" rows in lists (Ubuntu 8.04 only)
+ 
+
+### 2008-04-10 - Version 0.40
+The first version in English
+
+
+### 2008-03-31 - Version 0.39
+
+this is the first release after 0.35
+The program is completely rewritten/ported to a Gnome Application.
+With that a lot of new features are implemented which I do not want to
+list in detail.
+
+Basically the Editor Window is based now on the GtkSourceView which supports
+features like spell checking, undo - redo and so on.
+
+Additionally the Autor- and Stichwort (like keyword or catchword) Window and
+ some smaller support windows "Preferences" and "File Information"
+Windows where implemented.
+
+Originally I planed to release this version as 0.40 ... but also 0.40 should
+be a release with multi lingual support.
+

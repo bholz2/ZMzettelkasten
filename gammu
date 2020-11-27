@@ -1,0 +1,21 @@
+    Mai 2008
++++ Today: 9.5.2008
+    --- Fr 09 Mai 2008 12:40:51 CEST ---
+goto zettel 45
+file=technik.zkx | t
+file== | =
+---mark create main---
+---mark after create main---
+    autor=Bernd Holzhauer
+    filename = =
+    open file = /home/bernd/daten/info//=
++++ in real open file
+--- cannot stat /home/bernd/daten/info//= ...
+--- cannot stat /home/bernd/daten/info//=~ ...
+Location vpan1=510
+Location hpan1=690
+Location vpan2=179
++++ in get_len - count=0, vor=1
+    end get_len - count=0, n3=0, n4=0, n0=0
+*** In Kill Event *** 0 0
+*** In Exit *** 0 0

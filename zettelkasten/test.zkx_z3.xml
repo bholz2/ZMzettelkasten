@@ -1,0 +1,55 @@
+<filename>aaa.zkx</filename>
+<zettel>
+    <no>3</no>
+    <title>LaTeX - Test Seite</title>
+    <text>
+<c><h>Testseite für LaTeX</h></c>
+
+Die Umsetzung von Zetteltext nach LaTeX ist recht schwierig. Zum einen gibt es z.B. keine Standardisierung für <d>Durchgestrichen</d> und erst recht problematisch wird es bei Listen. Die normalen TAGs wie <f>fett</f>, <k>kursiv</k> und <u>unterstrichen</u> sollten dagegen gut funktionieren. Ein Beispiel: <f><u>fettunterstrichen</u></f>. Evtl. mach <f>fett mit <k>kursiv + schief</k>gerade</f> ein paar Probleme.  
+Allerdings sollten Super<S>script</S> für z.B. EMC<S>2</S> und Sub<s>script</s> für z.B. H<s>2</s>O gut dargestellt werden. Sie sollten sich auch ohne Probleme in einen mehrzeiligen Text einfügen. 
+
+Manche UTF8-Sonderzeichen wie z.B. diese »Anführungszeichen« oder diese „Anführungszeichen“ kommen noch ganz gut rüber. Dagegen machen die standard "Anführungszeichen" Probleme, sie müssen in englische “Anführungszeichen“ gewandelt werden.
+Schlimmer wird es allerdings schon mit © für Copyright<S>©</S> und ® für Trademarks<S>®</S>. Diese werden in .dvi Dateien nicht dargestellt, kommen jedoch in PDF-Dateien noch rüber.
+<c>* * * * *</c>
+Die Zeichen: % $ & { } _ # ! " § ( ) \ ? * + < >  sind für LaTeX-Steuerzeichen und damit (möglicherweise) problematische Zeichen. Sie werden durch voranstellen von \ bzw durch einpacken mit $-Zeichen aber normal druckbar. Unter Umständen stimmen danach jedoch die Abstände nicht.
+
+Es ist nicht möglich LaTeX-Code hier direkt einzugeben ... außer z.B. $\Rightarrow$ ... der Pfeil sollte korrekt dargestellt werden. 
+
+In LaTeX hat der »\« eine besondere Bedeutung: so wird mittels
+\begin{verbatim} beispielsweise der Ausdruck von Listings eingeleitet.
+
+Listing Beispiel:
+<m>void pop_zindex ()
+{
+    int i;
+    GtkWidget *button;
+
+//  g_printf("+++ in pop_zindex");
+    for (i=LEN_ZSTACK; i>0; i--) {
+        zstack[i] = zstack[i-1];
+//      g_print(" %d", zstack[i]);
+    }
+    zstack[i] = 0;
+    zindex = zstack[LEN_ZSTACK];
+    if (zstack[LEN_ZSTACK-1] == 0) {
+        button = lookup_widget (GTK_WIDGET (main_window), "main_btn_undo"); 
+        gtk_widget_set_sensitive(button, FALSE);
+    }
+//  g_printf("\n");
+}
+</m>
+
+Die nachfolgenden Sonderzeichen sind mit LaTeX  nicht (direkt) darstellbar
+... sind aber möglicherweise sinnvolle Zeichen:
+© ® ℡ ● ☎ ♻ ⇨ ⌘ ✔ ✄
+
+
+</text>
+    <words>s3,test,zettel /3,latex</words>
+    <author>Bernd Holzhauer, © 2008
+2. Zeile zum Testen</author>
+    <links>0 3 4 7 </links>
+    <notes>Zettel 3</notes>
+    <date>Erstellt: Mi 14. Mai 2008;Geändert: Fr 16. Mai 2008</date>
+    <external>/home/bernd/Desktop/gsl/Singapur ausgerichtet.jpg;</external>
+</zettel>

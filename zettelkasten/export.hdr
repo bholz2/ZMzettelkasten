@@ -1,0 +1,37 @@
+ %LaTeX Header File for Export
+ %Schriftgröße, Layout, Papierformat, Art des Dokumentes
+%\documentclass[10pt,oneside,a4paper]{scrartcl} % if KOMA script installed
+\documentclass[10pt,oneside,a4paper]{article}
+ %Einstellungen der Seitenränder
+\usepackage[left=3cm,right=3cm,top=2cm,bottom=2cm,includeheadfoot]{geometry}
+ %neue Rechtschreibung
+\usepackage[german,ngerman]{babel}
+ %Umlaute ermöglichen
+%\usepackage[utf8x]{inputenc} % if KOMA script installed
+\usepackage[utf8]{inputenc}
+ %Durchstreichen ermöglichen
+\usepackage{ulem}
+\usepackage{amsfonts}
+ %Kopf- und Fußzeile
+\usepackage{fancyhdr}
+ %Bilder
+\usepackage{graphicx}
+\pagestyle{fancy}
+\fancyhf{}
+
+ %Kopfzeile mittig
+\fancyhead[C]{\nouppercase{$TITLE}} % TITLE will be replaced by data
+ %Kopfzeile rechts bzw. außen
+\fancyhead[R]{$PAGE / -\thepage -}	% PAGE will be replaced by Zettel No.
+ %Linie oben
+\renewcommand{\headrulewidth}{0.5pt}
+
+ %Fußzeile links bzw. innen
+\fancyfoot[L]{$AUTHOR}
+ %Fußzeile rechts bzw. außen
+\fancyfoot[R]{\today}
+ %Linie unten
+\renewcommand{\footrulewidth}{0.5pt}
+
+\setlength{\parindent}{0pt}
+\begin{document}

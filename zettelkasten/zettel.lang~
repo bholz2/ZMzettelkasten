@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "language.dtd">
+<language _name="ZETTEL" version="1.0" _section="Markup" mimetypes="text/zettel">
+	
+	<block-comment _name="List Block" style="Data Type">
+		<start-regex>&lt;l&gt;</start-regex>
+		<end-regex>&lt;/l&gt;</end-regex>
+	</block-comment>
+
+	<syntax-item _name="Mono Block" style="Data Type">
+		<start-regex>&lt;m&gt;</start-regex>
+		<end-regex>&lt;/m&gt;</end-regex>
+	</syntax-item>
+
+	<pattern-item _name="Center" style="Comment">
+		<regex>(&lt;c&gt;[^&lt;&quot;]*&lt;/c&gt;)</regex>
+	</pattern-item>
+
+	<pattern-item _name="Durch" style="Comment">
+		<regex>(&lt;d&gt;[^&lt;&quot;]*&lt;/d&gt;)</regex>
+	</pattern-item>
+
+	<pattern-item _name="Fett" style="Keyword">
+		<regex>(&lt;f&gt;[^&lt;&quot;]*&lt;/f&gt;)</regex>
+	</pattern-item>
+
+	<pattern-item _name="Head" style="Keyword">
+		<regex>(&lt;h&gt;[^&lt;&quot;]*&lt;/h&gt;)</regex>
+	</pattern-item>
+
+	<pattern-item _name="Image" style="Keyword">
+		<regex>(&lt;i&gt;[^&lt;&quot;]*&lt;/i&gt;)</regex>
+	</pattern-item>
+
+	<pattern-item _name="Kursiv" style="Comment">
+		<regex>(&lt;k&gt;[^&lt;&quot;]*&lt;/k&gt;)</regex>
+	</pattern-item>
+
+	<pattern-item _name="Under" style="Comment">
+		<regex>(&lt;u&gt;[^&lt;&quot;]*&lt;/u&gt;)</regex>
+	</pattern-item>
+
+	<pattern-item _name="Sub" style="Comment">
+		<regex>(&lt;s&gt;[^&lt;&quot;]*&lt;/s&gt;)</regex>
+	</pattern-item>
+
+	<pattern-item _name="Super" style="Comment">
+		<regex>(&lt;S&gt;[^&lt;&quot;]*&lt;/S&gt;)</regex>
+	</pattern-item>
+
+	<syntax-item _name="Tab Block" style="Data Type">
+		<start-regex>&lt;t&gt;</start-regex>
+		<end-regex>&lt;/t&gt;</end-regex>
+	</syntax-item>
+
+	<pattern-item _name="String" style="String">
+		<regex>(&quot;[^&lt;&quot;]*&quot;)</regex>
+	</pattern-item>
+
+	<keyword-list _name="Tag" style="Specials" case-sensitive="TRUE"
+		match-empty-string-at-beginning = "FALSE"
+		match-empty-string-at-end = "FALSE"
+		beginning-regex="&lt;/?"
+		end-regex="(\b|&gt;)">
+		<keyword>c</keyword>
+		<keyword>d</keyword>
+		<keyword>f</keyword>
+		<keyword>h</keyword>
+		<keyword>i</keyword>
+		<keyword>k</keyword>
+		<keyword>l</keyword>
+		<keyword>m</keyword>
+      		<keyword>s</keyword>
+      		<keyword>S</keyword>
+		<keyword>t</keyword>
+		<keyword>u</keyword>
+	</keyword-list>
+
+</language>
